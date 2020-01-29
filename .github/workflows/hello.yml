@@ -17,3 +17,4 @@ jobs:
       run: |
         echo "The time was ${{ steps.hello.outputs.time }}"
         nproc
+        cat README.md
